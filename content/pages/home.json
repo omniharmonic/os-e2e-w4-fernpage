@@ -32,7 +32,7 @@
           "type": "component/hero",
           "v": 1,
           "fields": {
-            "title": "Grow something slow and lovely",
+            "title": "Grow something wild and lovely",
             "text": "Native perennials, hand-thrown pots and patient advice from a small nursery in the hills above Asheville.",
             "cta": {
               "type": "page",
@@ -47,11 +47,8 @@
             },
             "cta2Label": "See what’s blooming",
             "photo": {
-              "src": "media/2026/10/image-2-d2r2.jpg",
-              "alt": "Rows of golden coneflowers in the nursery beds",
-              "width": 1200,
-              "height": 800,
-              "mediaId": "med_d2r25fxmaw"
+              "src": "media/2026/10/pots-b3957853.jpg",
+              "alt": ""
             }
           }
         }

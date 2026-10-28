@@ -28,5 +28,22 @@
     },
     "originalName": "800",
     "createdAt": "2026-10-28T01:50:35.164Z"
+  },
+  "media/2026/10/pots-b3957853.jpg": {
+    "id": "med_2pee5rppxg",
+    "path": "media/2026/10/pots-b3957853.jpg",
+    "kind": "image",
+    "mime": "image/jpeg",
+    "bytes": 8037,
+    "width": 800,
+    "height": 800,
+    "alt": "",
+    "focal": [
+      0.51,
+      0.51
+    ],
+    "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAD0lEQVR4AQEEAPv/AOjdyQU/Ao84dZitAAAAAElFTkSuQmCC",
+    "originalName": "pots.jpg",
+    "createdAt": "2026-10-28T01:55:26.728Z"
   }
 }
