@@ -1,0 +1,219 @@
+{
+  "id": "pg_z6zqpr8m4w",
+  "title": "Grow something slow and lovely",
+  "slug": "",
+  "seo": {
+    "title": "Fern Hollow Gardens — Plants, pots and patient advice",
+    "description": "A small plant nursery in Asheville with native perennials, hand-thrown pots and Saturday workshops."
+  },
+  "sections": [
+    {
+      "id": "sec_a6n9cbtnnk",
+      "preset": "component/hero@1",
+      "label": "Grow something slow and lovely",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_7gtjy1xcav",
+          "type": "component/hero",
+          "v": 1,
+          "fields": {
+            "title": "Grow something slow and lovely",
+            "text": "Native perennials, hand-thrown pots and patient advice from a small nursery in the hills above Asheville.",
+            "cta": {
+              "type": "page",
+              "page": "pg_z6zqpr8m4w",
+              "anchor": "visit"
+            },
+            "ctaLabel": "Plan a visit",
+            "cta2": {
+              "type": "page",
+              "page": "pg_z6zqpr8m4w",
+              "anchor": "plants"
+            },
+            "cta2Label": "See what’s blooming",
+            "photo": {
+              "src": "media/2026/10/image-2-d2r2.jpg",
+              "alt": "Rows of golden coneflowers in the nursery beds",
+              "width": 1200,
+              "height": 800,
+              "mediaId": "med_d2r25fxmaw"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_3sz5yw9v8b",
+      "preset": "component/plants@1",
+      "label": "What you’ll find here",
+      "anchor": "plants",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_ca1zvkxwmb",
+          "type": "component/plants",
+          "v": 1,
+          "fields": {
+            "heading": "What you’ll find here",
+            "cards": [
+              {
+                "heading": "Native perennials",
+                "text": "Over 200 varieties grown from local seed, chosen to feed bees and survive August."
+              },
+              {
+                "heading": "Hand-thrown pots",
+                "text": "Stoneware planters made two doors down by our neighbour Ruth, glazed in river colours."
+              },
+              {
+                "heading": "Saturday workshops",
+                "text": "Seed saving, pruning and container gardens — tea and biscuits included, muddy boots welcome."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_f1h2z2baj7",
+      "preset": "component/story@1",
+      "label": "Started on a back porch",
+      "anchor": "story",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_fmmecv2e44",
+          "type": "component/story",
+          "v": 1,
+          "fields": {
+            "photo": {
+              "src": "media/2026/10/800-q2ff.jpg",
+              "alt": "Hands repotting a seedling",
+              "width": 800,
+              "height": 800,
+              "mediaId": "med_q2ffdbja9v"
+            },
+            "heading": "Started on a back porch",
+            "text": "Fern Hollow began in 2014 with forty seedlings and a borrowed greenhouse. Today we’re a family of six growers who still believe the best garden advice is the honest kind: plant less, water deeply, and wait.",
+            "cta": {
+              "type": "page",
+              "page": "pg_z6zqpr8m4w",
+              "anchor": "visit"
+            },
+            "ctaLabel": "Meet the growers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_7s2y4agh9j",
+      "preset": "component/quote@1",
+      "label": "Section",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_j2e4pt3yk0",
+          "type": "component/quote",
+          "v": 1,
+          "fields": {
+            "quote": "“They talked me out of buying the plant I wanted and into the one my garden needed. Best I ever spent.”",
+            "text": "— Dolores, West Asheville"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_c50g26ce7y",
+      "preset": "component/visit@1",
+      "label": "Come and wander",
+      "anchor": "visit",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_4xzzwstpn3",
+          "type": "component/visit",
+          "v": 1,
+          "fields": {
+            "heading": "Come and wander",
+            "text": "Open Thursday to Sunday, 9am – 5pm · 41 Laurel Creek Road, Asheville NC",
+            "cta": {
+              "type": "email",
+              "email": "hello@example.com"
+            },
+            "ctaLabel": "Email the nursery"
+          }
+        }
+      ]
+    }
+  ]
+}

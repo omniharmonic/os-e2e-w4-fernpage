@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "brand": {
+    "name": "os-e2e-w4-fernpage"
+  },
+  "tokens": {
+    "colors": {
+      "moss": {
+        "value": "#2e5e4e"
+      },
+      "clay": {
+        "value": "#c86b3c",
+        "role": "brand"
+      },
+      "cream": {
+        "value": "#f6f0e4",
+        "role": "background"
+      },
+      "ink": {
+        "value": "#1f2a26",
+        "role": "text"
+      },
+      "sand": {
+        "value": "#e8ddc8"
+      }
+    },
+    "fonts": {
+      "heading": {
+        "family": "Fraunces",
+        "google": true
+      },
+      "body": {
+        "family": "Work Sans",
+        "google": true
+      }
+    },
+    "type": {
+      "wordmark": {
+        "size": 24,
+        "weight": 700,
+        "font": "heading"
+      }
+    }
+  },
+  "rules": [
+    "The page's own sections were brought across as designer components: keep their look, edit their fields.",
+    "New sections: use the colours and fonts above through Site Styles (var(--os-color-…), var(--os-font-…))."
+  ],
+  "mapping": {
+    "notes": [
+      "Read 5 colours, 0 font roles, 0 text sizes (a design-token file).",
+      "Your brand colour #c86b3c leads the palette (buttons, links and accents).",
+      "Dark sections use your #1f2a26 as the ground with #f6f0e4 text.",
+      "Page background #f6f0e4, text #1f2a26.",
+      "Your fonts (Fraunces, Work Sans) are used as they are — free on Google Fonts and published with the site.",
+      "Text sizes kept: wordmark 24px.",
+      "6 colour pairings were nudged so all text stays readable (WCAG AA), e.g. accent-hover #dc7d4f → #cf7143, accent-pressed #f19061 → #cf7143.",
+      "Body text contrast 13.1:1."
+    ],
+    "contrast": [
+      {
+        "theme": "light",
+        "role": "accent-hover",
+        "from": "#dc7d4f",
+        "to": "#cf7143",
+        "against": "background"
+      },
+      {
+        "theme": "light",
+        "role": "accent-pressed",
+        "from": "#f19061",
+        "to": "#cf7143",
+        "against": "background"
+      },
+      {
+        "theme": "brand",
+        "role": "text-muted",
+        "from": "#501d00",
+        "to": "#361100",
+        "against": "background"
+      },
+      {
+        "theme": "brand",
+        "role": "success",
+        "from": "#003f18",
+        "to": "#00220a",
+        "against": "background"
+      },
+      {
+        "theme": "brand",
+        "role": "warning",
+        "from": "#492b00",
+        "to": "#2c1800",
+        "against": "background"
+      },
+      {
+        "theme": "brand",
+        "role": "danger",
+        "from": "#660005",
+        "to": "#430002",
+        "against": "background"
+      }
+    ]
+  },
+  "components": {
+    "hero": {
+      "purpose": "Grow something slow and lovely (from the / page)",
+      "source": "fernhollow.html"
+    },
+    "plants": {
+      "purpose": "What you’ll find here (from the / page)",
+      "source": "fernhollow.html"
+    },
+    "story": {
+      "purpose": "Started on a back porch (from the / page)",
+      "source": "fernhollow.html"
+    },
+    "quote": {
+      "purpose": "Section (from the / page)",
+      "source": "fernhollow.html"
+    },
+    "visit": {
+      "purpose": "Come and wander (from the / page)",
+      "source": "fernhollow.html"
+    },
+    "site-footer": {
+      "purpose": "Footer (from the footer)",
+      "source": "fernhollow.html"
+    }
+  },
+  "sources": [
+    {
+      "kind": "html",
+      "name": "fernhollow.html",
+      "format": "html",
+      "at": "2026-10-28T01:50:35.164Z"
+    }
+  ],
+  "updatedAt": "2026-10-28T01:50:35.164Z",
+  "brief": {}
+}

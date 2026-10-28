@@ -1,0 +1,77 @@
+{
+  "title": "os-e2e-w4-fernpage",
+  "tagline": "A small plant nursery in Asheville with native perennials, hand-thrown pots and Saturday workshops.",
+  "nav": [
+    {
+      "type": "page",
+      "page": "pg_z6zqpr8m4w",
+      "label": "Plants",
+      "anchor": "plants"
+    },
+    {
+      "type": "page",
+      "page": "pg_z6zqpr8m4w",
+      "label": "Our story",
+      "anchor": "story"
+    },
+    {
+      "type": "page",
+      "page": "pg_z6zqpr8m4w",
+      "label": "Visit",
+      "anchor": "visit"
+    }
+  ],
+  "header": {
+    "variant": "classic-left",
+    "sticky": false,
+    "transparentOnHero": false,
+    "mobileMenu": "fullscreen"
+  },
+  "footer": {
+    "id": "sec_4xc5s0jwb6",
+    "preset": "component/site-footer@1",
+    "label": "Footer",
+    "layout": {
+      "mode": "stack",
+      "columns": {
+        "d": [
+          12
+        ]
+      },
+      "width": "full"
+    },
+    "style": {
+      "colorTheme": "light",
+      "padding": {
+        "d": "none"
+      }
+    },
+    "blocks": [
+      {
+        "id": "blk_pjxe2c39a4",
+        "type": "component/site-footer",
+        "v": 1,
+        "fields": {
+          "parts": [
+            {
+              "text": "© 2026 Fern Hollow Gardens"
+            },
+            {
+              "text": "Made with patience in Asheville"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "seo": {
+    "titleTemplate": "%s — os-e2e-w4-fernpage",
+    "description": "A small plant nursery in Asheville with native perennials, hand-thrown pots and Saturday workshops."
+  },
+  "locale": "en",
+  "integrations": {
+    "analytics": false,
+    "bookingUrl": null,
+    "stripeConnected": false
+  }
+}

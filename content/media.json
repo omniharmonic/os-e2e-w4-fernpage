@@ -1,0 +1,32 @@
+{
+  "media/2026/10/image-2-d2r2.jpg": {
+    "id": "med_d2r25fxmaw",
+    "path": "media/2026/10/image-2-d2r2.jpg",
+    "kind": "image",
+    "mime": "image/jpeg",
+    "bytes": 28636,
+    "width": 1200,
+    "height": 800,
+    "alt": "Rows of golden coneflowers in the nursery beds",
+    "credit": {
+      "source": "Imported from your page"
+    },
+    "originalName": "image-2.jpg",
+    "createdAt": "2026-10-28T01:50:35.164Z"
+  },
+  "media/2026/10/800-q2ff.jpg": {
+    "id": "med_q2ffdbja9v",
+    "path": "media/2026/10/800-q2ff.jpg",
+    "kind": "image",
+    "mime": "image/jpeg",
+    "bytes": 126628,
+    "width": 800,
+    "height": 800,
+    "alt": "Hands repotting a seedling",
+    "credit": {
+      "source": "Imported from your page"
+    },
+    "originalName": "800",
+    "createdAt": "2026-10-28T01:50:35.164Z"
+  }
+}

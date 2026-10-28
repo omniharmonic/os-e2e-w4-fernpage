@@ -1,0 +1,68 @@
+{
+  "name": "hero",
+  "label": "Grow something slow and lovely",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "title": {
+      "kind": "text",
+      "label": "Title"
+    },
+    "text": {
+      "kind": "text",
+      "label": "Text",
+      "multiline": true
+    },
+    "cta": {
+      "kind": "link",
+      "label": "Cta"
+    },
+    "ctaLabel": {
+      "kind": "text",
+      "label": "Cta label"
+    },
+    "cta2": {
+      "kind": "link",
+      "label": "Cta 2"
+    },
+    "cta2Label": {
+      "kind": "text",
+      "label": "Cta 2label"
+    },
+    "photo": {
+      "kind": "image",
+      "label": "Photo"
+    }
+  },
+  "defaults": {
+    "title": "Grow something slow and lovely",
+    "text": "Native perennials, hand-thrown pots and patient advice from a small nursery in the hills above Asheville.",
+    "cta": {
+      "type": "page",
+      "page": "pg_z6zqpr8m4w",
+      "anchor": "visit"
+    },
+    "ctaLabel": "Plan a visit",
+    "cta2": {
+      "type": "page",
+      "page": "pg_z6zqpr8m4w",
+      "anchor": "plants"
+    },
+    "cta2Label": "See what’s blooming",
+    "photo": {
+      "src": "media/2026/10/image-2-d2r2.jpg",
+      "alt": "Rows of golden coneflowers in the nursery beds",
+      "width": 1200,
+      "height": 800,
+      "mediaId": "med_d2r25fxmaw"
+    }
+  },
+  "template": "<section class=\"hero\"> <div> <h1>{{title}}</h1> <p>{{text}}</p> <a href=\"{{href cta}}\" class=\"btn\">{{ctaLabel}}</a><a href=\"{{href cta2}}\" class=\"btn ghost\">{{cta2Label}}</a> </div> {{image photo class=\"os-ci\"}} </section>",
+  "css": ":scope{--moss:#2e5e4e;--clay:var(--os-color-accent);--ink:var(--os-color-text)}\n:scope{font-family:var(--os-font-body);color:var(--ink);line-height:1.6}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\n.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center;padding:64px 48px 80px}\n.hero h1{font-family:var(--os-font-heading);font-size:64px;line-height:1.05;margin:0 0 20px;color:var(--moss)}\n.hero p{font-size:20px;max-width:34ch;margin:0 0 32px}\n.btn{display:inline-block;background:var(--clay);color:#fff;padding:14px 28px;border-radius:999px;text-decoration:none;font-weight:600}\n.btn.ghost{background:transparent;color:var(--moss);border:2px solid var(--moss);margin-left:12px}\n.hero [class~=\"os-ci\"]{width:100%;height:440px;object-fit:cover;border-radius:28px}\n.hero img{width:100%;height:440px;object-fit:cover;border-radius:28px}\n@media (max-width: 760px){.hero{grid-template-columns:1fr;padding:40px 20px;gap:28px}}\n@media (max-width: 760px){.hero h1{font-size:42px}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}
